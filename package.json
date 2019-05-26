@@ -1,0 +1,21 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "Fetch API",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marry705.git"
+  },
+  "author": "Marry705 <marry705chilo@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.17.2"
+  },
+  "scripts": {
+    "lint": "eslint ./"
+  }
+}
