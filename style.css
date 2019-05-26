@@ -37,10 +37,11 @@ body {
 .container{
     margin: 0 50px;
 }
-.form-form{
+.form-control{
     border: 1px soled var(--dark-color);
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 10px;
+    width: 80%;
 }
 .mb-4{
     font-size: 1.5rem;
@@ -53,4 +54,7 @@ body {
 .card{
     font-size: 1rem; 
     text-align: left;
+}
+.list-group-item{
+    list-style-type: none;
 }

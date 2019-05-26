@@ -17,5 +17,8 @@
   },
   "scripts": {
     "lint": "eslint ./"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.4.1"
   }
 }
