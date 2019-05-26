@@ -1,15 +1,56 @@
 :root {
-    --text-color: #252529;
-    --back-color: #f4f4f4;
+    --dark-color: #252529;
+    --light-color: #f4f4f4;
+    --primary-color: #00FF00;
+    --warning-color: #FFA500;
+    --success-color: #1E90FF;
 }
 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
 body {
-    background-color: var(--back-color);
+    background-color: var(--dark-color);
     margin: 0 auto;
-    color: var(--text-color);
+    color: var(--light-color);
     line-height: 1.6;
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
+}
+.btn{
+    padding: 10px;
+    color: var(--dark-color);
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.btn-primary{
+    background: var(--primary-color);
+}
+.btn-success{
+    background: var(--success-color);
+}
+.btn-warning{
+    background: var(--warning-color);
+}
+.container{
+    margin: 0 50px;
+}
+.form-form{
+    border: 1px soled var(--dark-color);
+    font-size: 1.2rem;
+    margin: 10px;
+}
+.mb-4{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.mb-3{
+    font-size: 1.2rem;
+    text-align: left;
+}
+.card{
+    font-size: 1rem; 
+    text-align: left;
 }
